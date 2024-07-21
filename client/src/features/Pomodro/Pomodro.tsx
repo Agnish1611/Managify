@@ -47,7 +47,7 @@ const PomodoroClock: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[100px] w-[350px] bg-[#292c3c] m-5 mt-10 mb-10 rounded-[10px] p-5 ">
+    <div className="flex flex-col items-center justify-center min-h-[100px] w-[350px] bg-[#292c3c] m-5 my-5 rounded-[10px] p-5 ">
       <img src={Icon} className="h-12" />
       <div className="flex flex-row justify-evenly items-center font-roboto font-semibold text-sm text-center">
         <div

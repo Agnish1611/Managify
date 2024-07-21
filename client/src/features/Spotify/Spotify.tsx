@@ -50,7 +50,7 @@ function Spotify() {
   return (
     <div className="flex flex-col items-center">
       <iframe
-        className="rounded-[8px] m-0 mt-0 mb-3 "
+        className="rounded-[8px] m-0"
         src={embedLink}
         width="87%"
         height="170px"
@@ -79,7 +79,7 @@ function Spotify() {
             />
             <Button
               onClick={changePlayList}
-              className=" bg-[#a6d189] text-grey-500 rounded-[10px]"
+              className=" bg-[#a6d189] text-grey-500 m-0 rounded-[10px]"
             >
               Update Playlist
             </Button>

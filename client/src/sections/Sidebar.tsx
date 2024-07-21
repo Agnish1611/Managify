@@ -38,7 +38,7 @@ function Sidebar() {
 
   return (
     <div className="rounded-r-lg h-full w-[400px] fixed z-20 bg-[#232634]">
-      <div className="pl-7 pt-10 justify-start flex flex-col">
+      <div className="pl-7 justify-start flex flex-col">
         <div className="text-[60px] text-[#E78284] font-[100] font-regular">
           {date.getHours()}
           <span className="relative top-[-4px]">:</span>
