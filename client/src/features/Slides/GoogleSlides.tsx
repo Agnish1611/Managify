@@ -19,7 +19,7 @@ function GoogleSlides(props: propsObj) {
         src={props.src}
         frameBorder="0"
         allowFullScreen={true}
-        className="absolute left-[-30px] w-[calc(100% + 60px)] w-[calc(100% + 40px)]"
+        className="absolute left-[-30px] top-[-0px] w-[500px] h-[280px]"
       />
     </div>
   );

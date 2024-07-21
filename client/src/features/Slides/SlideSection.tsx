@@ -14,12 +14,12 @@ interface srcObj {
 
 const GoogleSlides = ({ src }: srcObj) => {
   return (
-    <div className="relative overflow-hidden w-[320px] h-[180px] mx-3 p-10">
+    <div className="relative overflow-hidden w-[400px] h-[280px] mx-3 p-10">
       <iframe
         src={src}
         frameBorder="0"
         allowFullScreen={true}
-        className="absolute left-[-30px] w-[calc(100% + 60px)] w-[calc(100% + 40px)]"
+        className="absolute left-[-30px] w-[400px] h-[280px]"
       />
     </div>
   );
